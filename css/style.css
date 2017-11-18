@@ -41,7 +41,7 @@ body {
 }
 
 nav {
-  background-color: #0b3954;
+  background-color: #303e55;
   color: white;
   
 }
@@ -96,10 +96,17 @@ nav {
   background-position: center center;
 }
 
+.card {
+  position: relative;
+}
+
 .card-title {
   text-align: center;
   font-size: 70px;
-  margin-top: 350px;
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+  left: 0;
 }
 
 .close {
@@ -116,10 +123,9 @@ nav {
 
 
 
-
 @media screen and (max-width: 768px) {
   .hero {
-    
+    background-image: url("../images/hero-bg.jpg");
     height: 300px;
   }
 
